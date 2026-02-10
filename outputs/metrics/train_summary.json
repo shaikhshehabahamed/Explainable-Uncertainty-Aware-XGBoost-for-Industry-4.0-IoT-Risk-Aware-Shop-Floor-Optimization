@@ -1,0 +1,109 @@
+{
+  "bundle_path": "outputs\\models\\bundle.joblib",
+  "by_target": {
+    "Completion_Time": {
+      "task_type": "regression",
+      "oof_mean": {
+        "rmse": 33.30454617796588,
+        "mae": 28.842833099958124
+      },
+      "conformal_q": 51.97007751464844,
+      "transform": "identity",
+      "hpo_best_overrides": {},
+      "n_estimators_final": 12
+    },
+    "Downtime": {
+      "task_type": "regression",
+      "oof_mean": {
+        "rmse": 4.953095465421235,
+        "mae": 3.675197694755537
+      },
+      "conformal_q": 6.6410369873046875,
+      "transform": "identity",
+      "hpo_best_overrides": {},
+      "n_estimators_final": 1
+    },
+    "Energy_Used": {
+      "task_type": "regression",
+      "oof_mean": {
+        "rmse": 5.072820442984279,
+        "mae": 4.031739438360441
+      },
+      "conformal_q": 8.293709754943848,
+      "transform": "identity",
+      "hpo_best_overrides": {},
+      "n_estimators_final": 10
+    },
+    "Machine_Wear": {
+      "task_type": "regression",
+      "oof_mean": {
+        "rmse": 28.630668588716492,
+        "mae": 24.711143210616985
+      },
+      "conformal_q": 44.9163932800293,
+      "transform": "identity",
+      "hpo_best_overrides": {},
+      "n_estimators_final": 1
+    },
+    "Predictive_Failure_Score": {
+      "task_type": "regression",
+      "oof_mean": {
+        "rmse": 0.2958650523552772,
+        "mae": 0.2550584120742105
+      },
+      "conformal_q": 2.973313331604004,
+      "transform": "logit",
+      "hpo_best_overrides": {},
+      "n_estimators_final": 22
+    },
+    "Error": {
+      "task_type": "regression",
+      "oof_mean": {
+        "rmse": 0.46078042861552726,
+        "mae": 0.2769155744440062
+      },
+      "conformal_q": 0.592339038848877,
+      "transform": "identity",
+      "hpo_best_overrides": {},
+      "n_estimators_final": 606
+    },
+    "Maintenance_Required": {
+      "task_type": "classification",
+      "oof_mean": {
+        "threshold": 0.09999999999999999,
+        "accuracy": 0.19698947639770967,
+        "balanced_accuracy": 0.5002148230996083,
+        "f1": 0.3271127573990592,
+        "precision": 0.1957497803410844,
+        "recall": 0.9984732824427482,
+        "logloss": 0.4979797517416354,
+        "roc_auc": 0.5154431944585173,
+        "pr_auc": 0.2017620544903079
+      },
+      "decision_threshold": 0.09999999999999999,
+      "bounds_alpha": 0.1,
+      "bounds_bins": 10,
+      "hpo_best_overrides": {},
+      "n_estimators_final": 925
+    },
+    "Optimization_Success": {
+      "task_type": "classification",
+      "oof_mean": {
+        "threshold": 0.22000000000000003,
+        "accuracy": 0.593049852136595,
+        "balanced_accuracy": 0.6170574566504602,
+        "f1": 0.4084481824480116,
+        "precision": 0.29858687628282643,
+        "recall": 0.6572758108437926,
+        "logloss": 0.5031908382704537,
+        "roc_auc": 0.6576139014704288,
+        "pr_auc": 0.3099982368399635
+      },
+      "decision_threshold": 0.22,
+      "bounds_alpha": 0.1,
+      "bounds_bins": 10,
+      "hpo_best_overrides": {},
+      "n_estimators_final": 706
+    }
+  }
+}

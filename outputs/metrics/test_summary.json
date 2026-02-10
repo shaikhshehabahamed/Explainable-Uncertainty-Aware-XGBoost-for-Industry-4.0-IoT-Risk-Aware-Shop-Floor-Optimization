@@ -1,0 +1,154 @@
+{
+  "by_target": {
+    "Completion_Time": {
+      "target": "Completion_Time",
+      "task_type": "regression",
+      "rmse": 32.74030056630532,
+      "mae": 28.02180221432545,
+      "pi_coverage": 0.9084699453551912
+    },
+    "Downtime": {
+      "target": "Downtime",
+      "task_type": "regression",
+      "rmse": 5.243530094414472,
+      "mae": 3.7746196447928844,
+      "pi_coverage": 0.9002732240437158
+    },
+    "Energy_Used": {
+      "target": "Energy_Used",
+      "task_type": "regression",
+      "rmse": 4.907550919490331,
+      "mae": 3.9703034559736117,
+      "pi_coverage": 0.9098360655737705
+    },
+    "Machine_Wear": {
+      "target": "Machine_Wear",
+      "task_type": "regression",
+      "rmse": 29.111633397996144,
+      "mae": 25.171055115866395,
+      "pi_coverage": 0.8920765027322405
+    },
+    "Predictive_Failure_Score": {
+      "target": "Predictive_Failure_Score",
+      "task_type": "regression",
+      "rmse": 0.28532029306557233,
+      "mae": 0.24646823804547516,
+      "pi_coverage": 0.9030054644808743
+    },
+    "Error": {
+      "target": "Error",
+      "task_type": "regression",
+      "rmse": 0.46934011112603297,
+      "mae": 0.21916082788353833,
+      "pi_coverage": 0.9480874316939891
+    },
+    "Maintenance_Required": {
+      "target": "Maintenance_Required",
+      "task_type": "classification",
+      "threshold": 0.09999999999999999,
+      "accuracy": 0.23633879781420766,
+      "balanced_accuracy": 0.5,
+      "f1": 0.38232044198895027,
+      "precision": 0.23633879781420766,
+      "recall": 1.0,
+      "logloss": 0.5522178117770578,
+      "roc_auc": 0.49689267581457397,
+      "pr_auc": 0.23455762081265843,
+      "mean_p_cal": 0.20142176747322083,
+      "mean_p_lower": 0.1843130737543106,
+      "mean_p_upper": 0.21906514465808868
+    },
+    "Optimization_Success": {
+      "target": "Optimization_Success",
+      "task_type": "classification",
+      "threshold": 0.22,
+      "accuracy": 0.5628415300546448,
+      "balanced_accuracy": 0.6106461602219485,
+      "f1": 0.3916349809885932,
+      "precision": 0.27320954907161804,
+      "recall": 0.6912751677852349,
+      "logloss": 0.4898708111731873,
+      "roc_auc": 0.6277585274039623,
+      "pr_auc": 0.2626505788896981,
+      "mean_p_cal": 0.22926147282123566,
+      "mean_p_lower": 0.20585453510284424,
+      "mean_p_upper": 0.25434720516204834
+    }
+  },
+  "rows": [
+    {
+      "target": "Completion_Time",
+      "task_type": "regression",
+      "rmse": 32.74030056630532,
+      "mae": 28.02180221432545,
+      "pi_coverage": 0.9084699453551912
+    },
+    {
+      "target": "Downtime",
+      "task_type": "regression",
+      "rmse": 5.243530094414472,
+      "mae": 3.7746196447928844,
+      "pi_coverage": 0.9002732240437158
+    },
+    {
+      "target": "Energy_Used",
+      "task_type": "regression",
+      "rmse": 4.907550919490331,
+      "mae": 3.9703034559736117,
+      "pi_coverage": 0.9098360655737705
+    },
+    {
+      "target": "Machine_Wear",
+      "task_type": "regression",
+      "rmse": 29.111633397996144,
+      "mae": 25.171055115866395,
+      "pi_coverage": 0.8920765027322405
+    },
+    {
+      "target": "Predictive_Failure_Score",
+      "task_type": "regression",
+      "rmse": 0.28532029306557233,
+      "mae": 0.24646823804547516,
+      "pi_coverage": 0.9030054644808743
+    },
+    {
+      "target": "Error",
+      "task_type": "regression",
+      "rmse": 0.46934011112603297,
+      "mae": 0.21916082788353833,
+      "pi_coverage": 0.9480874316939891
+    },
+    {
+      "target": "Maintenance_Required",
+      "task_type": "classification",
+      "threshold": 0.09999999999999999,
+      "accuracy": 0.23633879781420766,
+      "balanced_accuracy": 0.5,
+      "f1": 0.38232044198895027,
+      "precision": 0.23633879781420766,
+      "recall": 1.0,
+      "logloss": 0.5522178117770578,
+      "roc_auc": 0.49689267581457397,
+      "pr_auc": 0.23455762081265843,
+      "mean_p_cal": 0.20142176747322083,
+      "mean_p_lower": 0.1843130737543106,
+      "mean_p_upper": 0.21906514465808868
+    },
+    {
+      "target": "Optimization_Success",
+      "task_type": "classification",
+      "threshold": 0.22,
+      "accuracy": 0.5628415300546448,
+      "balanced_accuracy": 0.6106461602219485,
+      "f1": 0.3916349809885932,
+      "precision": 0.27320954907161804,
+      "recall": 0.6912751677852349,
+      "logloss": 0.4898708111731873,
+      "roc_auc": 0.6277585274039623,
+      "pr_auc": 0.2626505788896981,
+      "mean_p_cal": 0.22926147282123566,
+      "mean_p_lower": 0.20585453510284424,
+      "mean_p_upper": 0.25434720516204834
+    }
+  ]
+}
